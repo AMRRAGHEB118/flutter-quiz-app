@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "category": "Dart",
+    "question": "Which keyword is used to declare a variable that cannot be reassigned?",
+    "options": ["var", "final", "dynamic", "late"],
+    "correct_answer": "final"
+  },
+  {
+    "id": 2,
+    "category": "Dart",
+    "question": "Which function is the entry point of a Dart application?",
+    "options": ["start()", "run()", "main()", "init()"],
+    "correct_answer": "main()"
+  },
+  {
+    "id": 3,
+    "category": "Dart",
+    "question": "Which type represents true or false values in Dart?",
+    "options": ["Boolean", "bool", "bit", "logical"],
+    "correct_answer": "bool"
+  },
+  {
+    "id": 4,
+    "category": "Dart",
+    "question": "Which collection stores an ordered group of values?",
+    "options": ["Map", "Set", "List", "Object"],
+    "correct_answer": "List"
+  },
+  {
+    "id": 5,
+    "category": "Dart",
+    "question": "Which collection stores data as key-value pairs?",
+    "options": ["List", "Map", "Set", "Queue"],
+    "correct_answer": "Map"
+  },
+  {
+    "id": 6,
+    "category": "Dart",
+    "question": "Which keyword is used to create a class in Dart?",
+    "options": ["object", "struct", "class", "model"],
+    "correct_answer": "class"
+  },
+  {
+    "id": 7,
+    "category": "Dart",
+    "question": "What does the '?' symbol after a type indicate in null-safe Dart?",
+    "options": [
+      "The value is private",
+      "The value is nullable",
+      "The value is constant",
+      "The value is required"
+    ],
+    "correct_answer": "The value is nullable"
+  },
+  {
+    "id": 8,
+    "category": "Dart",
+    "question": "Which keyword is used to wait for an asynchronous operation?",
+    "options": ["wait", "async", "await", "future"],
+    "correct_answer": "await"
+  },
+  {
+    "id": 9,
+    "category": "Dart",
+    "question": "What does a Future represent in Dart?",
+    "options": [
+      "A value available immediately",
+      "A value that may be available later",
+      "A constant value",
+      "A list of values"
+    ],
+    "correct_answer": "A value that may be available later"
+  },
+  {
+    "id": 10,
+    "category": "Dart",
+    "question": "Which keyword refers to the current object inside a class?",
+    "options": ["self", "this", "current", "object"],
+    "correct_answer": "this"
+  },
+  {
+    "id": 11,
+    "category": "Dart",
+    "question": "Which syntax creates an anonymous function in Dart?",
+    "options": ["() {}", "function {}", "def () {}", "lambda {}"],
+    "correct_answer": "() {}"
+  },
+  {
+    "id": 12,
+    "category": "Dart",
+    "question": "Which method adds an item to the end of a List?",
+    "options": ["insert()", "push()", "append()", "add()"],
+    "correct_answer": "add()"
+  },
+  {
+    "id": 13,
+    "category": "Dart",
+    "question": "What is the purpose of a constructor?",
+    "options": [
+      "Delete an object",
+      "Initialize an object",
+      "Import a library",
+      "Create a loop"
+    ],
+    "correct_answer": "Initialize an object"
+  },
+  {
+    "id": 14,
+    "category": "Dart",
+    "question": "Which keyword is used for class inheritance in Dart?",
+    "options": ["inherits", "implements", "extends", "super"],
+    "correct_answer": "extends"
+  },
+  {
+    "id": 15,
+    "category": "Dart",
+    "question": "What does 'const' represent in Dart?",
+    "options": [
+      "A runtime-only value",
+      "A compile-time constant",
+      "A nullable value",
+      "An asynchronous value"
+    ],
+    "correct_answer": "A compile-time constant"
+  },
+  {
+    "id": 16,
+    "category": "Flutter",
+    "question": "What is Flutter primarily used for?",
+    "options": [
+      "Database management",
+      "Building user interfaces",
+      "Server administration",
+      "Machine learning only"
+    ],
+    "correct_answer": "Building user interfaces"
+  },
+  {
+    "id": 17,
+    "category": "Flutter",
+    "question": "Which programming language is primarily used with Flutter?",
+    "options": ["Java", "Kotlin", "Dart", "Swift"],
+    "correct_answer": "Dart"
+  },
+  {
+    "id": 18,
+    "category": "Flutter",
+    "question": "Which widget arranges its children vertically?",
+    "options": ["Row", "Column", "Stack", "Container"],
+    "correct_answer": "Column"
+  },
+  {
+    "id": 19,
+    "category": "Flutter",
+    "question": "Which widget arranges its children horizontally?",
+    "options": ["Column", "Stack", "Row", "Scaffold"],
+    "correct_answer": "Row"
+  },
+  {
+    "id": 20,
+    "category": "Flutter",
+    "question": "Which widget provides the basic visual structure for a Material screen?",
+    "options": ["Container", "Scaffold", "Column", "Text"],
+    "correct_answer": "Scaffold"
+  },
+  {
+    "id": 21,
+    "category": "Flutter",
+    "question": "Which widget is commonly used when the UI does not have mutable state?",
+    "options": [
+      "StatefulWidget",
+      "StatelessWidget",
+      "InheritedWidget",
+      "FutureBuilder"
+    ],
+    "correct_answer": "StatelessWidget"
+  },
+  {
+    "id": 22,
+    "category": "Flutter",
+    "question": "Which widget is used when the UI needs to change based on mutable state?",
+    "options": [
+      "StatelessWidget",
+      "Text",
+      "StatefulWidget",
+      "MaterialApp"
+    ],
+    "correct_answer": "StatefulWidget"
+  },
+  {
+    "id": 23,
+    "category": "Flutter",
+    "question": "Which method is used to notify Flutter that a State object's data has changed?",
+    "options": ["update()", "refresh()", "setState()", "rebuild()"],
+    "correct_answer": "setState()"
+  },
+  {
+    "id": 24,
+    "category": "Flutter",
+    "question": "Which widget is used to display text?",
+    "options": ["Label", "Paragraph", "Text", "String"],
+    "correct_answer": "Text"
+  },
+  {
+    "id": 25,
+    "category": "Flutter",
+    "question": "Which widget places its children on top of each other?",
+    "options": ["Row", "Column", "Stack", "ListView"],
+    "correct_answer": "Stack"
+  },
+  {
+    "id": 26,
+    "category": "Flutter",
+    "question": "Which widget helps keep content away from system UI areas such as notches?",
+    "options": ["Padding", "SafeArea", "Container", "Spacer"],
+    "correct_answer": "SafeArea"
+  },
+  {
+    "id": 27,
+    "category": "Flutter",
+    "question": "Which widget can be used to create fixed empty space between widgets?",
+    "options": ["SizedBox", "Scaffold", "MaterialApp", "Stack"],
+    "correct_answer": "SizedBox"
+  },
+  {
+    "id": 28,
+    "category": "Flutter",
+    "question": "Which method adds a new screen to the navigation stack?",
+    "options": [
+      "Navigator.open()",
+      "Navigator.push()",
+      "Navigator.next()",
+      "Navigator.add()"
+    ],
+    "correct_answer": "Navigator.push()"
+  },
+  {
+    "id": 29,
+    "category": "Flutter",
+    "question": "Which widget is commonly used as the root of a Material Design application?",
+    "options": ["MaterialApp", "Column", "Container", "Scaffold"],
+    "correct_answer": "MaterialApp"
+  },
+  {
+    "id": 30,
+    "category": "Flutter",
+    "question": "Which property of a Column controls alignment along its vertical axis?",
+    "options": [
+      "crossAxisAlignment",
+      "textAlign",
+      "mainAxisAlignment",
+      "alignment"
+    ],
+    "correct_answer": "mainAxisAlignment"
+  }
+]
