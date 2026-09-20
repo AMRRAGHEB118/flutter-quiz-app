@@ -1,17 +1,28 @@
-# flutter_quiz_app
+# Dart & Flutter Quiz
 
-A new Flutter project.
+A simple quiz app made with Flutter. It tests your knowledge of Dart and
+Flutter with multiple-choice questions.
 
-## Getting Started
+## What it does
 
-This project is a starting point for a Flutter application.
+- Shows a home screen with a "Start Quiz" button.
+- Picks 10 random questions out of a pool of 30.
+- You must choose an answer before you can go to the next question.
+- Shows a progress bar so you know how far you are.
+- At the end, shows your score and lets you check each answer (yours vs.
+  the correct one).
+- Has a "Retake Quiz" button to try again with a new set of questions.
 
-A few resources to get you started if this is your first Flutter project:
+## How to run it
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. Install packages:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   flutter pub get
+   ```
+
+2. Run the app (pick your device, e.g. Chrome):
+
+   ```bash
+   flutter run -d chrome
+   ```
